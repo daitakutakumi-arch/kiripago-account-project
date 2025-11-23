@@ -1,0 +1,17 @@
+{
+  "name": "kiripago-account-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start-server": "node server/server.js",
+    "start-static": "serve static -p 5000"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
